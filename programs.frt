@@ -75,5 +75,3 @@ then ;
             drop drop drop r>
     then
 then ; 
-
-963 radical .S
