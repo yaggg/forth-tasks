@@ -52,9 +52,6 @@ then ;
 : radical 
     dup 1 = not if
     dup prime @ not if 
-    dup 1 < if drop 1 allot dup 0 swap ! else
-    dup 1 = if drop 1 allot dup 0 swap !
-     else
             dup >r 
             2 swap 2 /
             swap r>
@@ -76,9 +73,7 @@ then ;
                  then
             until
             drop drop drop r>
-     then
-then
-then
+    then
 then ; 
 
-
+963 radical .S
